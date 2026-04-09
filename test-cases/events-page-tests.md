@@ -255,13 +255,13 @@ User can search events by keyword
 - Events with keyword "eco" exist
 
 ### Test Steps
-
 | Step | Action | Data | Expected Result |
 |------|--------|------|----------------|
-| 1 | Locate search field | Search input | Field is visible |
-| 2 | Enter text | eco | Text entered |
-| 3 | Press Enter | - | Search executed |
-| 4 | Verify results | - | All events contain "eco" |
+| 1 | Open events page | - | Events list is visible |
+| 2 | Click search icon | - | Search input appears |
+| 3 | Enter keyword | "eco" | Keyword is entered |
+| 4 | Submit search | Press Enter | Events list updates |
+| 5 | Verify results | - | All events contain keyword "eco" 
 
 ---
 
@@ -382,14 +382,10 @@ Date format updates according to language
 - Language changed
 
 ### Test Steps
-| Step | Action                         | Data | Expected Result                |
-| ---- | ------------------------------ | ---- | ------------------------------ |
-| 1    | Wait for events list           | -    | Events list visible            |
-| 2    | Click search icon              | 🔍   | Search input active            |
-| 3    | Enter keyword                  | eco  | Keyword entered                |
-| 4    | Press Enter                    | -    | Search executed                |
-| 5    | Wait for results               | -    | Results displayed              |
-| 6    | Verify results contain keyword | eco  | All events contain the keyword |
+| Step | Action | Data | Expected Result |
+|------|--------|------|----------------|
+| 1 | Select English | - | Language applied |
+| 2 | Verify date | 04/15/2026 | Date format changes to MM/DD/YYYY |
 
 
 ---
@@ -403,13 +399,11 @@ Invalid email format is rejected
 - Registration form available
 
 ### Test Steps
-
-| | Step | Action                    | Data        | Expected Result                          |
-| ---- | ------------------------- | ----------- | ---------------------------------------- |
-| 1    | Click Sign In             | -           | Login modal displayed                    |
-| 2    | Verify modal              | -           | Modal is visible                         |
-| 3    | Locate email input        | -           | Email field visible                      |
-| 4    | Verify no error initially | -           | No error message displayed               |
-| 5    | Enter invalid email       | test@@gmail | Email entered                            |
-| 6    | Trigger validation        | Press TAB   | Error message displayed                  |
-| 7    | Verify error message      | -           | "Check if your email address is correct" |
+| Step | Action | Data | Expected Result |
+|------|--------|------|----------------|
+| 1 | Click Sign In | - | Login modal appears |
+| 2 | Locate email input | - | Email input is visible |
+| 3 | Verify initial error | - | No error message displayed |
+| 4 | Enter invalid email | "test@@gmail" | Email is entered |
+| 5 | Trigger validation | Press Tab | Error message appears |
+| 6 | Verify error message | - | "Check that your email address is correct" displayed |
