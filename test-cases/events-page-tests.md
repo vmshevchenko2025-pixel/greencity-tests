@@ -404,4 +404,4 @@ Invalid email format is rejected
 |------|--------|------|----------------|
 | 1 | Enter email | test@@gmail | Data entered |
 | 2 | Click Submit | - | Error displayed |
-| 3 | Verify message | - | "Invalid email format" |
+| 3 | Verify message | - | "Перевірте, чи правильно вказано вашу адресу електронної пошти" |
