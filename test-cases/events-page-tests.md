@@ -382,11 +382,15 @@ Date format updates according to language
 - Language changed
 
 ### Test Steps
+| Step | Action                         | Data | Expected Result                |
+| ---- | ------------------------------ | ---- | ------------------------------ |
+| 1    | Wait for events list           | -    | Events list visible            |
+| 2    | Click search icon              | 🔍   | Search input active            |
+| 3    | Enter keyword                  | eco  | Keyword entered                |
+| 4    | Press Enter                    | -    | Search executed                |
+| 5    | Wait for results               | -    | Results displayed              |
+| 6    | Verify results contain keyword | eco  | All events contain the keyword |
 
-| Step | Action | Data | Expected Result |
-|------|--------|------|----------------|
-| 1 | Select English | - | Language applied |
-| 2 | Verify date | 04/15/2026 | Format MM/DD/YYYY |
 
 ---
 
@@ -400,8 +404,12 @@ Invalid email format is rejected
 
 ### Test Steps
 
-| Step | Action | Data | Expected Result |
-|------|--------|------|----------------|
-| 1 | Enter email | test@@gmail | Data entered |
-| 2 | Click Submit | - | Error displayed |
-| 3 | Verify message | - | "Invalid email format" |
+| | Step | Action                    | Data        | Expected Result                          |
+| ---- | ------------------------- | ----------- | ---------------------------------------- |
+| 1    | Click Sign In             | -           | Login modal displayed                    |
+| 2    | Verify modal              | -           | Modal is visible                         |
+| 3    | Locate email input        | -           | Email field visible                      |
+| 4    | Verify no error initially | -           | No error message displayed               |
+| 5    | Enter invalid email       | test@@gmail | Email entered                            |
+| 6    | Trigger validation        | Press TAB   | Error message displayed                  |
+| 7    | Verify error message      | -           | "Check if your email address is correct" |
