@@ -14,3 +14,5 @@ def trigger_validation(self):
     error = page.get_email_error()
 
     assert "Перевірте" in error
+
+
