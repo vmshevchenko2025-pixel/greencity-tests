@@ -17,7 +17,7 @@ def test_search_events(driver):
     page.open()
     page.open_search()
 
-    keyword = "event"
+    keyword = "eco"
     page.search_by_keyword(keyword)
 
     results = []
