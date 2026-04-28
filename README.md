@@ -26,13 +26,10 @@
 
 
 greencity-tests/
-│
-├── src/
+│├── src/
 │ ├── pages/ # Page Objects (BasePage, EventsPage, AuthPage)
 │ ├── components/ # UI Components (Header, FilterPanel, EventCard)
-│
 ├── tests/ # Автоматизовані тести
-│
 ├── conftest.py # Pytest фікстури (driver setup/teardown)
 ├── pytest.ini # Конфігурація pytest + Allure
 ├── requirements.txt # Залежності проєкту
