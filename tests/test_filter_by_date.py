@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-from pages.events_page import EventsPage
+from src.pages.events_page import EventsPage
 
 
 @pytest.fixture

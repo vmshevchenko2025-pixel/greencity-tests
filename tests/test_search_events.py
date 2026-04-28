@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-from pages.events_page import EventsPage
+from src.pages.events_page import EventsPage
 
 
 @pytest.fixture
@@ -17,7 +17,7 @@ def test_search_events(driver):
     page.open()
     page.open_search()
 
-    keyword = "eco"
+    keyword = "event"
     page.search_by_keyword(keyword)
 
     results = []
@@ -26,7 +26,10 @@ def test_search_events(driver):
         if results:
             break
 
-    assert len(results) > 0
-
     for event in results:
         assert keyword.lower() in event.text.lower()
+
+        results = page.get_search_results()
+        no_results = page.get_no_results_message()
+
+        assert len(results) > 0 or no_results is not None

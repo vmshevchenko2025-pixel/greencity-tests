@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-from pages.auth_page import AuthPage
+from src.pages.auth_page import AuthPage
 
 
 @pytest.fixture
