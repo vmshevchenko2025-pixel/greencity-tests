@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cd4684c-e659-42f9-b9c1-cfe623056562" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/greencity-tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/greencity-tests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/base_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/base_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/event_card_component.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/auth_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/events_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/events_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_filter_by_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_filter_by_date.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_invalid_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_invalid_email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_search_events.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_search_events.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vmshevchenko2025-pixel&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vmshevchenko2025-pixel/greencity-tests.git&quot;,
+    &quot;accountId&quot;: &quot;23fd0a83-0874-4d7a-ae2b-25ded9fda950&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3BrWkhUbs0DFq6UKoYImwXvBkwQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for tests.test_tc22_invalid_email.TestInvalidEmail.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in greencity-tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_auth.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_events.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_filter_by_date.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_invalid_email.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_search_events.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_tc01_events_list_displayed.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_tc03_filter_by_date.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_tc14_search_event.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_tc22_invalid_email.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_filter_by_date.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.auth_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.base_component.executor&quot;: &quot;Run&quot;,
+    &quot;Python.events_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.filter_panel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_tc03_filter_by_date.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Мої документи/IT/Automated Testing/4.Python+Selenium/greencity-tests&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.23727088&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Мої документи\IT\Automated Testing\4.Python+Selenium\greencity-tests\src" />
+      <recent name="D:\Мої документи\IT\Automated Testing\4.Python+Selenium\greencity-tests\tests" />
+      <recent name="D:\Мої документи\IT\Automated Testing\4.Python+Selenium\greencity-tests\tests\PO" />
+      <recent name="D:\Мої документи\IT\Automated Testing\Phyton+Selenium\greencity-tests\tests" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="filter_panel" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="greencity-tests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (PyCharmMiscProject)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/components" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/components/filter_panel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_tc03_filter_by_date" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="greencity-tests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_tc03_filter_by_date.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in D:/Мої документи/IT/Automated Testing/4.Python+Selenium/greencity-tests/tests/test_tc03_filter_by_date.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="greencity-tests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_tc03_filter_by_date.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in D:/Мої документи/IT/Automated Testing/4.Python+Selenium/greencity-tests/tests/test_tc14_search_event.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="greencity-tests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_tc14_search_event.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in D:/Мої документи/IT/Automated Testing/4.Python+Selenium/greencity-tests/tests/test_tc22_invalid_email.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="greencity-tests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_tc22_invalid_email.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in greencity-tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="greencity-tests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_tc03_filter_by_date" />
+        <item itemvalue="Python tests.Python tests in greencity-tests" />
+        <item itemvalue="Python tests.Python tests in D:/Мої документи/IT/Automated Testing/4.Python+Selenium/greencity-tests/tests/test_tc22_invalid_email.py" />
+        <item itemvalue="Python tests.Python tests in D:/Мої документи/IT/Automated Testing/4.Python+Selenium/greencity-tests/tests/test_tc14_search_event.py" />
+        <item itemvalue="Python tests.Python tests in D:/Мої документи/IT/Automated Testing/4.Python+Selenium/greencity-tests/tests/test_tc03_filter_by_date.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cd4684c-e659-42f9-b9c1-cfe623056562" name="Changes" comment="" />
+      <created>1775247813591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775247813591</updated>
+      <workItem from="1775247814693" duration="3697000" />
+      <workItem from="1775251570801" duration="827000" />
+      <workItem from="1775284000710" duration="10000" />
+      <workItem from="1775288924678" duration="2280000" />
+      <workItem from="1775292602678" duration="265000" />
+      <workItem from="1775296431008" duration="747000" />
+      <workItem from="1775418294167" duration="10610000" />
+      <workItem from="1775509238907" duration="604000" />
+      <workItem from="1775587713403" duration="3461000" />
+      <workItem from="1775654033624" duration="22127000" />
+      <workItem from="1776712064480" duration="3422000" />
+      <workItem from="1776715562268" duration="6243000" />
+      <workItem from="1776805101481" duration="7990000" />
+      <workItem from="1776975497739" duration="330000" />
+      <workItem from="1776975851766" duration="684000" />
+      <workItem from="1776976555732" duration="52000" />
+      <workItem from="1776976626991" duration="319000" />
+      <workItem from="1776977869114" duration="6465000" />
+      <workItem from="1777106814859" duration="250000" />
+      <workItem from="1777145081952" duration="5422000" />
+      <workItem from="1777194965711" duration="1007000" />
+      <workItem from="1777196183183" duration="5091000" />
+      <workItem from="1777206842841" duration="3953000" />
+      <workItem from="1777288992842" duration="7471000" />
+      <workItem from="1777363997350" duration="11222000" />
+      <workItem from="1777406126325" duration="1135000" />
+      <workItem from="1777480455881" duration="805000" />
+      <workItem from="1777481280357" duration="15000" />
+      <workItem from="1777481331533" duration="5547000" />
+      <workItem from="1777491296757" duration="12000" />
+      <workItem from="1777491323108" duration="2213000" />
+    </task>
+    <task id="LOCAL-00001" summary="Standart modul unittest">
+      <option name="closed" value="true" />
+      <created>1775724901421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775724901422</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Delete unnecessary file">
+      <option name="closed" value="true" />
+      <created>1775728815042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775728815042</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1775729239230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775729239230</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1775729535450</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775729535450</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1775730330936</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775730330936</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1777197098413</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1777197098413</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1777197202220</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1777197202220</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1777364080914</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1777364080915</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1777396025311</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1777396025311</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1777396585874</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1777396585874</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Standart modul unittest" />
+    <MESSAGE value="Delete unnecessary file" />
+    <MESSAGE value="Adding steps in a test case" />
+    <MESSAGE value="Delete tests/__pycache__ directory" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/greencity_tests$test_tc03_filter_by_date.coverage" NAME="test_tc03_filter_by_date Coverage Results" MODIFIED="1777394964693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/greencity_tests$base_component.coverage" NAME="base_component Coverage Results" MODIFIED="1777480691411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/components" />
+    <SUITE FILE_PATH="coverage/greencity_tests$.coverage" NAME=" Coverage Results" MODIFIED="1777493071150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/greencity_tests$auth_page.coverage" NAME="auth_page Coverage Results" MODIFIED="1777290696318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pages" />
+    <SUITE FILE_PATH="coverage/greencity_tests$events_page.coverage" NAME="events_page Coverage Results" MODIFIED="1777484168511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pages" />
+    <SUITE FILE_PATH="coverage/greencity_tests$pytest_in_test_filter_by_date_py.coverage" NAME="pytest in test_filter_by_date.py Coverage Results" MODIFIED="1777406883641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/greencity_tests$filter_panel.coverage" NAME="filter_panel Coverage Results" MODIFIED="1777491482368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/components" />
+    <SUITE FILE_PATH="coverage/greencity_tests$utils.coverage" NAME="utils Coverage Results" MODIFIED="1775427865501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

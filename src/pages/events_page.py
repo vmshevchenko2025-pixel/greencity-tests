@@ -1,40 +1,25 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from src.pages.base_page import BasePage
+from src.components.filter_panel import FilterPanel
+from src.components.search_bar import SearchBar
+from src.components.event_card import EventCard
 
 
 class EventsPage(BasePage):
+    """Page Object for GreenCity Events page."""
 
     URL = "https://www.greencity.cx.ua/#/greenCity/events"
 
-    # 🔹 Locators
-    DATE_FILTER = (By.XPATH, "//*[contains(text(),'Дати')]")
-    DATE_CELL = (By.XPATH, "//span[contains(@class,'mat-calendar-body-cell-content') and normalize-space()='2']")
-    FILTERED_EVENTS = (By.XPATH, "//div[contains(@class,'active-filter') and contains(@class,'ng-star-inserted')]")
+    EVENT_ITEMS = (By.CSS_SELECTOR, "app-events-list-item")
 
-    SEARCH_ICON = (By.CSS_SELECTOR, "div.container-img")
-    SEARCH_INPUT = (By.CSS_SELECTOR, "div.container-input input")
-    EVENT_ITEMS = (By.CSS_SELECTOR, "app-event-item")
+    def __init__(self, driver):
+        super().__init__(driver)
+        self.filter_panel = FilterPanel(driver)
+        self.search_bar = SearchBar(driver)
 
-    # 🔹 Actions
     def open(self):
-        self.driver.get(self.URL)
+        super().open(self.URL)
 
-    def open_date_filter(self):
-        self.click(self.DATE_FILTER)
-
-    def select_date(self):
-        self.click(self.DATE_CELL)
-
-    def get_filtered_events(self):
-        return self.get_elements(self.FILTERED_EVENTS)
-
-    def open_search(self):
-        self.click(self.SEARCH_ICON)
-
-    def search_by_keyword(self, keyword):
-        self.type(self.SEARCH_INPUT, keyword)
-        self.find(self.SEARCH_INPUT).send_keys(Keys.ENTER)
-
-    def get_search_results(self):
-        return self.driver.find_elements(*self.EVENT_ITEMS)
+    def get_events(self) -> list:
+        elements = self.find_all(self.EVENT_ITEMS)
+        return [EventCard(self.driver, el) for el in elements]

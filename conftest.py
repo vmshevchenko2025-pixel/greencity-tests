@@ -1,13 +1,14 @@
 import pytest
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 
-@pytest.fixture
+@pytest.fixture(scope="function")
 def driver():
-    driver = webdriver.Chrome()
-    driver.maximize_window()
-    driver.implicitly_wait(10)
-
+    options = Options()
+    options.add_argument("--start-maximized")
+    options.add_argument("--disable-notifications")
+    driver = webdriver.Chrome(options=options)
+    driver.implicitly_wait(0)
     yield driver
-
     driver.quit()

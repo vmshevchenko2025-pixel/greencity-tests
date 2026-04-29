@@ -1,35 +1,27 @@
-import pytest
-from selenium import webdriver
+import allure
 from src.pages.events_page import EventsPage
 
 
-@pytest.fixture
-def driver():
-    driver = webdriver.Chrome()
-    driver.maximize_window()
-    yield driver
-    driver.quit()
+@allure.feature("Events")
+@allure.story("Search events")
+class TestSearchEvents:
 
+    @allure.title("Пошук за ключовим словом повертає результати")
+    def test_search_returns_results(self, driver):
+        keyword = "eco"
+        page = EventsPage(driver)
 
-def test_search_events(driver):
-    page = EventsPage(driver)
+        with allure.step("Відкрити сторінку подій"):
+            page.open()
 
-    page.open()
-    page.open_search()
+        with allure.step("Відкрити панель пошуку"):
+            page.search_bar.open()
 
-    keyword = "eco"
-    page.search_by_keyword(keyword)
+        with allure.step(f"Ввести ключове слово: '{keyword}'"):
+            page.search_bar.search(keyword)
 
-    results = []
-    for _ in range(10):
-        results = page.get_search_results()
-        if results:
-            break
+        with allure.step("Отримати результати пошуку"):
+            events = page.get_events()
 
-    for event in results:
-        assert keyword.lower() in event.text.lower()
-
-        results = page.get_search_results()
-        no_results = page.get_no_results_message()
-
-        assert len(results) > 0 or no_results is not None
+        with allure.step("Перевірити: результати не порожні"):
+            assert len(events) > 0, f"Пошук за '{keyword}' повинен повертати події"
