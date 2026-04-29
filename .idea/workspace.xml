@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cd4684c-e659-42f9-b9c1-cfe623056562" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/greencity-tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/greencity-tests.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/base_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/base_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/event_card_component.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/auth_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/events_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/events_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_filter_by_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_filter_by_date.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_invalid_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_invalid_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_search_events.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_search_events.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +262,7 @@
       <workItem from="1777481280357" duration="15000" />
       <workItem from="1777481331533" duration="5547000" />
       <workItem from="1777491296757" duration="12000" />
-      <workItem from="1777491323108" duration="2213000" />
+      <workItem from="1777491323108" duration="2751000" />
     </task>
     <task id="LOCAL-00001" summary="Standart modul unittest">
       <option name="closed" value="true" />
